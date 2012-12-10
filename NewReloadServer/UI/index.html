@@ -123,38 +123,40 @@
 
         </div>
 
-        <div id="change-workspace-dialog" title="Change Workspace">
-            <label>Paste Workspace path here:</label>
-            <br/>
-            <br/>
-            <input type="text" name="workspacePath" id="workspacePath" class="text ui-widget-content ui-corner-all" />
-            <br/>
-        </div>
+        <div id="dialogs" class="hidden">
+            <div id="change-workspace-dialog" title="Change Workspace">
+                <label>Paste Workspace path here:</label>
+                <br/>
+                <br/>
+                <input type="text" name="workspacePath" id="workspacePath" class="text ui-widget-content ui-corner-all" />
+                <br/>
+            </div>
 
-        <div id="new-project-dialog" title="New widget">
-            <label>Project Type:</label>
-            <br/>
-            <br/>
-            <input type="radio" name="projectType" id="projectType" value="native" />
-            NativeUI Based
-            <br/>
-            <br/>
-            <input type="radio" name="projectType" id="projectType" checked="true" value="web" />
-            Web based
-            <br/>
-            <br/>
-            <br/>
-            <label>Project Name:</label>
-            <input type="text" name="newProjectName" id="newProjectName" class="text ui-widget-content ui-corner-all"/>
-            <br/>
+            <div id="new-project-dialog" title="New widget">
+                <label>Project Type:</label>
+                <br/>
+                <br/>
+                <input type="radio" name="projectType" id="projectType" value="native" />
+                NativeUI Based
+                <br/>
+                <br/>
+                <input type="radio" name="projectType" id="projectType" checked="true" value="web" />
+                Web based
+                <br/>
+                <br/>
+                <br/>
+                <label>Project Name:</label>
+                <input type="text" name="newProjectName" id="newProjectName" class="text ui-widget-content ui-corner-all"/>
+                <br/>
+            </div>
         </div>
 
         <!--
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.1.js"><\/script>')</script>
         -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+        
         <!-- jQuery Dialog -->
         <script src="js/vendor/jquery-ui-1.8.16.custom.min.js"></script>
         <link rel="stylesheet" href="css/jquery-ui-1.8.16.custom.css">
